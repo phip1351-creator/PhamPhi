@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quản lý Users (Popup Sửa)</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="assi.css">
+    
+  </head>
+  <body>
+    <h2>Bảng Danh Sách Users</h2>
+
+    <div class="form-container">
+      <form id="userForm" onsubmit="event.preventDefault(); addUser();">
+        <input id="name" placeholder="Tên" />
+        <input id="email" placeholder="Email" />
+        <input id="phone" placeholder="Số điện thoại" />
+        <select id="role">
+          <option value="User">User</option>
+          <option value="Admin">Admin</option>
+        </select>
+        <button type="submit">Thêm User</button>
+      </form>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên</th>
+          <th>Email</th>
+          <th>Số điện thoại</th>
+          <th>Vai trò</th>
+          <th>Chức năng</th>
+        </tr>
+      </thead>
+      <tbody id="userList"></tbody>
+    </table>
+
+    <!-- Modal Sửa User -->
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <h3>Sửa thông tin User</h3>
+        <input type="hidden" id="editId" />
+        <input id="editName" placeholder="Tên" />
+        <input id="editEmail" placeholder="Email" />
+        <input id="editPhone" placeholder="Số điện thoại" />
+        <select id="editRole">
+          <option value="User">User</option>
+          <option value="Admin">Admin</option>
+        </select>
+        <div class="modal-buttons">
+          <button onclick="saveEdit()">Lưu</button>
+          <button class="close-btn" onclick="closeModal()">Hủy</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

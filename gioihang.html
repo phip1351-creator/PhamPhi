@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>🛒 Giỏ hàng của bạn - PHP Store</title>
+  <link rel="stylesheet" href="assi.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="data.js"></script>
+</head>
+<body>
+
+
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="hinh/images-removebg-preview.png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="header-actions">
+        <div class="account">
+          <i class="fa fa-user"></i>
+          <div>
+            <span class="login">Đăng nhập / Đăng ký</span><br>
+            <small>Tài khoản của tôi ▼</small>
+          </div>
+        </div>
+        <div class="cart">
+          <i class="fa fa-shopping-bag"></i>
+          <span>Giỏ hàng</span>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="giohang"></div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      © 2025 PHP Store | All Rights Reserved
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="functions.js"></script>
+  <script>
+    hiengiohang();
+  </script>
+</body>
+</html>

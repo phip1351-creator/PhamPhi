@@ -1,0 +1,178 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "ten_loai": "Nike"
+    },
+    {
+      "id": "2",
+      "ten_loai": "Adidas"
+    },
+    {
+      "id": "3",
+      "ten_loai": "PUMA"
+    },
+    {
+      "id": "4",
+      "ten_loai": "Joma"
+    },
+    {
+      "id": "5",
+      "ten_loai": "Mizuno"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "id_loai": "1",
+      "ten_sp": "Nike Mercurial Vapor 15 Elite FG",
+      "gia": "65000000",
+      "giam_gia": "10%",
+      "hinh": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXbmltJZ-s6uyXd_rTKhwS86jo1m0BkD62SQ&s",
+      "ngay": "2024-02-01",
+      "mau_sac": "Cam neon",
+      "xem": "825",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "2",
+      "id_loai": "2",
+      "ten_sp": "Adidas Predator Accuracy.1 FG",
+      "gia": "6200000",
+      "giam_gia": "15%",
+      "hinh": "hinh/adidasP.jpg",
+      "ngay": "2023-06-24",
+      "mau_sac": "Đen đỏ",
+      "xem": "742",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "3",
+      "id_loai": "3",
+      "ten_sp": "PUMA Future Ultimate FG/AG",
+      "gia": "5800000",
+      "giam_gia": "12%",
+      "hinh": "hinh/puma1.webp",
+      "ngay": "2023-08-12",
+      "mau_sac": "Xanh neon",
+      "xem": "640",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "4",
+      "id_loai": "4",
+      "ten_sp": "Joma Aguila Gol FG",
+      "gia": "2900000",
+      "giam_gia": "5%",
+      "hinh": "hinh/joma.jpg",
+      "ngay": "2024-05-02",
+      "mau_sac": "Trắng xanh",
+      "xem": "381",
+      "hot": "0",
+      "an_hien": "1"
+    },
+    {
+      "id": "5",
+      "id_loai": "5",
+      "ten_sp": "Mizuno Morelia Neo III Beta FG",
+      "gia": "7200000",
+      "giam_gia": "10%",
+      "hinh": "hinh/mizuno.avif",
+      "ngay": "2024-01-12",
+      "mau_sac": "Trắng vàng",
+      "xem": "578",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "6",
+      "id_loai": "1",
+      "ten_sp": "Nike Phantom GX Elite FG",
+      "gia": "6700000",
+      "giam_gia": "8%",
+      "hinh": "hinh/nikeP.jpg",
+      "ngay": "2023-02-13",
+      "mau_sac": "Đen bạc",
+      "xem": "922",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "7",
+      "id_loai": "2",
+      "ten_sp": "Adidas X Crazyfast.1 FG",
+      "gia": "6400000",
+      "giam_gia": "12%",
+      "hinh": "hinh/adidasX.jpg",
+      "ngay": "2023-09-06",
+      "mau_sac": "Hồng neon",
+      "xem": "1042",
+      "hot": "1",
+      "an_hien": "1"
+    },
+    {
+      "id": "8",
+      "id_loai": "3",
+      "ten_sp": "PUMA Ultra Ultimate FG/AG",
+      "gia": "6100000",
+      "giam_gia": "10%",
+      "hinh": "hinh/pumaU.jpg",
+      "ngay": "2023-08-16",
+      "mau_sac": "Cam đen",
+      "xem": "720",
+      "hot": "0",
+      "an_hien": "1"
+    },
+    {
+      "id": "9",
+      "id_loai": "4",
+      "ten_sp": "Joma Propulsion Lite FG",
+      "gia": "3200000",
+      "giam_gia": "10%",
+      "hinh": "hinh/jomaP.jpg",
+      "ngay": "2023-03-03",
+      "mau_sac": "Màu vàng",
+      "xem": "428",
+      "hot": "0",
+      "an_hien": "1"
+    },
+    {
+      "id": "b8ae",
+      "ten_sp": "Nike",
+      "gia": "9000000",
+      "hinh": "hinh/nike.jpg",
+      "id_loai": "1",
+      "giam_gia": "0%",
+      "ngay": "2025-10-20",
+      "mau_sac": "Không rõ",
+      "xem": "0",
+      "hot": "0",
+      "an_hien": "1"
+    }
+  ],
+  "thuoc_tinh": [
+    {
+      "id_sp": 1,
+      "kich_thuoc": "42",
+      "trong_luong": "190g",
+      "de_giay": "Carbon Plate",
+      "lot_giay": "Gripknit",
+      "cong_nghe": "Air Zoom",
+      "xuat_xu": "Việt Nam",
+      "id": "9bea"
+    },
+    {
+      "id_sp": 2,
+      "kich_thuoc": "41",
+      "trong_luong": "200g",
+      "de_giay": "Control Frame",
+      "lot_giay": "HybridTouch",
+      "cong_nghe": "High Definition Grip",
+      "xuat_xu": "Indonesia",
+      "id": "39ca"
+    }
+  ]
+}
