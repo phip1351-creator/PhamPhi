@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Xử lý nút "Thêm Sản phẩm mới"
+
 document.querySelector('.btn.btn-primary').addEventListener('click', async (e) => {
   e.preventDefault();
 
